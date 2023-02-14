@@ -1,0 +1,19 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(½¸םגשÿÿÿÿ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(½¸םגשÿÿÿÿ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(½¸םגשÿÿÿÿ
+N	java:S106F"9Replace this use of System.out or System.err by a logger.(ןüֽװ
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(½¸םגשÿÿÿÿ
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(½¸םגשÿÿÿÿ
+S	java:S106W"9Replace this use of System.out or System.err by a logger.(½¸םגשÿÿÿÿ
+N	java:S106["9Replace this use of System.out or System.err by a logger.(ז˜”
+M	java:S106_"9Replace this use of System.out or System.err by a logger.(ƒÚבB
+N	java:S106c"9Replace this use of System.out or System.err by a logger.(×שױז
+S	java:S106g"9Replace this use of System.out or System.err by a logger.(½¸םגשÿÿÿÿ
+S	java:S106k"9Replace this use of System.out or System.err by a logger.(ױפÙרÿÿÿÿ
+]
+java:S1192"GDefine a constant instead of duplicating this literal "Raheem" 4 times.(±Ýßת
+\
+java:S1192"FDefine a constant instead of duplicating this literal "Rahul" 5 times.(ףײכ—
+\
+java:S1192"FDefine a constant instead of duplicating this literal "Peter" 4 times.(ֶÙ ׳

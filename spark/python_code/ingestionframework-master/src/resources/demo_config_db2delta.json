@@ -1,0 +1,42 @@
+{
+"mode": "batch",
+"jobs": [
+	{
+		"name": "job2",
+		"description": " Read from Database table incrementally using Audit-delta table ",
+		"dbmsInputs":[
+			{
+				"dataFrameName": "DF3",
+				"url": "jdbc:mysql://localhost/demo",
+				"driver": "com.mysql.jdbc.Driver",
+				"user": "root",
+				"password": "QWEasd234",
+				"dbtable": "emp"
+			}
+		],
+		"fileOutputs": [
+			{
+				"dataFrameName": "DF3",
+				"format": "CSV",
+				"fileOutPath": "/Users/nlangaliya/Downloads/IngestionFrameworkOutputData/csv/",
+				"mode": "Overwrite"
+			},
+			{
+				"dataFrameName": "DF3",
+				"format": "JSON",
+				"fileOutPath": "/Users/nlangaliya/Downloads/IngestionFrameworkOutputData/json/",
+				"mode": "Overwrite",
+				"numPartitions": 2,
+				"partitionBy": ["job"]
+			},
+			{
+				"dataFrameName": "DF3",
+				"format": "DELTA",
+				"fileOutPath": "/Users/nlangaliya/Downloads/IngestionFrameworkOutputData/delta",
+				"mode": "Overwrite",
+				"numPartitions": 2
+			}
+		]
+	}
+]
+}

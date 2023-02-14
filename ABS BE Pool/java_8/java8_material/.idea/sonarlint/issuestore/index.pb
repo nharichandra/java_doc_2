@@ -1,0 +1,39 @@
+
+j
+:src/com/hari/functionalinterface/SingleAbstractMethod.java,c/c/cc267abf5ce474e4c136646016936832f19a51ee
+c
+3src/com/hari/lamda/RunnableFunctionalInterface.java,c/6/c69d2418bb8e37ba72f262c5a49aa3a9c834ca76
+f
+6src/com/hari/functionalinterface/PredicateExample.java,1/6/169669be6e58cb4fbca0fb5c89e3aabeb65d7c9e
+N
+src/com/hari/model/Person.java,4/5/450996541f3d47140815a90b68573b3b198d3b5d
+V
+&src/com/hari/model/EmployeeEntity.java,f/1/f1e62bbb954daf79c78127afa343a24b8b5e0a54
+S
+#src/com/hari/model/EmployeeDTO.java,c/2/c294e7842e405ebdbe756b89670a1f019b3fe20c
+O
+src/com/hari/model/Product.java,a/1/a1afa89bb75d371ccae2849664a585976c04649f
+e
+5src/com/hari/functionalinterface/ConsumerExample.java,f/8/f8e924f04e9de2e8302b1955a9ccf23bd6dbadbb
+^
+.src/com/hari/classes/OptionalClassExample.java,b/2/b22744d33eae036927eb061a917135803db2aa02
+e
+5src/com/hari/lamda/ComparatorFunctionalInterface.java,1/f/1f27e25e54f189370f05bafeaefe01eed8bb13e9
+^
+.src/com/hari/classes/ForEachMethodExample.java,b/6/b6d944c5af9e2181ae554bb467af757870bec392
+`
+0src/com/hari/classes/CollectorsClassExample.java,a/a/aafdf713b7bf99bcd850e798098876e59f1013f6
+P
+ src/com/hari/model/Employee.java,6/f/6f34ba0db523bcc16c7e41878e812d3a2dcdbc2a
+S
+#src/com/hari/util/ProductsUtil.java,b/a/ba9644fcbf89610628c4bd20781411d583576f28
+S
+#src/com/hari/util/EmployeeUtil.java,8/1/813202cb3172c5e823eee748b64e235b9130ff2f
+B
+java8_material.iml,3/b/3bfa7e59a12be3b246197387af542548ca53d93a
+\
+,src/com/hari/streamAPI/StreamApiExample.java,8/b/8b96680610ca3b8f1518c4bb70a85ca132accc36
+9
+	README.MD,9/6/968e80af9562e09cebe594968b130076952eafe1
+e
+5src/com/hari/functionalinterface/FunctionExample.java,3/3/33de682723dc0e2de822380ae84e73bee6316339

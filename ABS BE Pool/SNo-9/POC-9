@@ -1,0 +1,7 @@
+"All Crud Operation with Spring webflux with Mongo DB.
+sample Student, Address, Subjects Entities, 
+used Mappers for conversion from Model to entity and entity to model and webclient to hit the service, 
+used scheduler to hit particular Api every second and get the data.
+examples on Aggregation functions
+
+Java 8 Practical examples on HashMap and List of employees"

@@ -1,0 +1,9 @@
+"POC has been completed on below ,
+1. Topics - Kafka Overview, Features, Workflow, Cluster, Brokers, Topics, Partitions , Producer , Consumer and Zookeeper.
+2. Configuration - configuration to work with Kafka
+2.1. Configuration in Core application properties files.
+2.2. Configuration in Spring Boot  application using application.properties file
+3. Demo Applications 
+3.1. Using Command Line Interface (CLI).
+3.2. Using Core application with Kafka.
+3.3. Using Spring Boot application with Kafka"

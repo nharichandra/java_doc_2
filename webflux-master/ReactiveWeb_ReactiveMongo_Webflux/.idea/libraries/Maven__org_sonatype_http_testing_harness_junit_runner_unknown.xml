@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.sonatype.http-testing-harness:junit-runner:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/sonatype/http-testing-harness/junit-runner/unknown/junit-runner-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/sonatype/http-testing-harness/junit-runner/unknown/junit-runner-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/sonatype/http-testing-harness/junit-runner/unknown/junit-runner-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

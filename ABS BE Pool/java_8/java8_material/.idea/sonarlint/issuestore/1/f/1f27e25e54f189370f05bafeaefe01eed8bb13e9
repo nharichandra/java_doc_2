@@ -1,0 +1,17 @@
+
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(ΖµΩ™ωÿÿÿÿ
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(“σ
+N	java:S106."9Replace this use of System.out or System.err by a logger.(΅Ώ³…
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(ΰΪύ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(υ€γώÿÿÿÿ
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(ΖµΩ™ωÿÿÿÿ
+N	java:S106;"9Replace this use of System.out or System.err by a logger.(“σ
+N	java:S106<"9Replace this use of System.out or System.err by a logger.(΅Ώ³…
+N	java:S106="9Replace this use of System.out or System.err by a logger.(ΰΪύ
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(υ€γώÿÿÿÿ
+`
+java:S1192"JDefine a constant instead of duplicating this literal "Hyderabad" 6 times.(Υµ΅έ
+a
+java:S1192"KDefine a constant instead of duplicating this literal "Nimmagadda" 4 times.(Υµ΅έ
+>
+java:S1604""(Make this anonymous inner class a lambda( Ξ°΅

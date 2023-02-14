@@ -1,0 +1,73 @@
+
+D
+java:S3740"/Provide the parametrized type for this generic.(‰¤»'
+J
+java:S3740$"/Provide the parametrized type for this generic.(¸¹„¬şÿÿÿÿ
+J
+java:S3740("/Provide the parametrized type for this generic.(³‰‘ùÿÿÿÿ
+J
+java:S3740,"/Provide the parametrized type for this generic.(É²‰Šÿÿÿÿÿ
+J
+java:S3740,"/Provide the parametrized type for this generic.(É²‰Šÿÿÿÿÿ
+R
+java:S1854,"7Remove this useless assignment to local variable "set".(É²‰Šÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(î¼ùš
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(…×ñşÿÿÿÿ
+M	java:S106*"9Replace this use of System.out or System.err by a logger.(•·Êz
+C
+java:S1481,"(Remove this unused "set" local variable.(É²‰Šÿÿÿÿÿ
+N	java:S106."9Replace this use of System.out or System.err by a logger.(Ä‰ÚÀ
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(Ì·èÿşÿÿÿÿ
+S	java:S1069"9Replace this use of System.out or System.err by a logger.(¬Àõ³şÿÿÿÿ
+M	java:S106<"9Replace this use of System.out or System.err by a logger.(éöŠ,
+T
+java:S1612D">Replace this lambda with method reference 'Product::getPrice'.(åÚ…²
+V
+java:S1612G"@Replace this lambda with method reference 'System.out::println'.(ÅÏ’µ
+N	java:S106G"9Replace this use of System.out or System.err by a logger.(ÅÏ’µ
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(ƒÇãˆúÿÿÿÿ
+N	java:S106N"9Replace this use of System.out or System.err by a logger.(‘›ÒÏ
+T
+java:S1612S">Replace this lambda with method reference 'Product::getPrice'.(åÚ…²
+N	java:S106U"9Replace this use of System.out or System.err by a logger.(†²úı
+T
+java:S1612Y">Replace this lambda with method reference 'Product::getPrice'.(Õ§—
+S	java:S106Z"9Replace this use of System.out or System.err by a logger.(²æÏåüÿÿÿÿ
+N	java:S106`"9Replace this use of System.out or System.err by a logger.(±Å€…
+N	java:S106e"9Replace this use of System.out or System.err by a logger.(åç‚¢
+S	java:S106j"9Replace this use of System.out or System.err by a logger.(ÓøÆÉıÿÿÿÿ
+M	java:S106p"9Replace this use of System.out or System.err by a logger.(øÃñ!
+N	java:S106v"9Replace this use of System.out or System.err by a logger.(ÕÜÃÂ
+S	java:S106~"9Replace this use of System.out or System.err by a logger.(¡õÓûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(›Æ§óÿÿÿÿÿ
+O	java:S106„"9Replace this use of System.out or System.err by a logger.(ºÅ¦Œ
+T	java:S106Œ"9Replace this use of System.out or System.err by a logger.(®²ÇÖùÿÿÿÿ
+U
+java:S1612’">Replace this lambda with method reference 'Product::getPrice'.(åÚ…²
+O	java:S106”"9Replace this use of System.out or System.err by a logger.(ÃÇßË
+W
+java:S1612˜";Replace this lambda with method reference 'Product::getId'.(¢¶¨ÿÿÿÿÿ
+^
+java:S1612˜"BReplace this lambda with method reference 'Product::getFirstName'.(¢¶¨ÿÿÿÿÿ
+T	java:S106™"9Replace this use of System.out or System.err by a logger.(î§Ãíüÿÿÿÿ
+T	java:S106 "9Replace this use of System.out or System.err by a logger.(ÿÓ»Şıÿÿÿÿ
+V	java:S106º"9Replace this use of System.out or System.err by a logger.(ßˆŒ§8·„ó¿â0
+V	java:S106½"9Replace this use of System.out or System.err by a logger.(®µ†8¹„ó¿â0
+[	java:S106¾"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8»„ó¿â0
+]
+java:S1612À"?Replace this lambda with method reference 'Collection::stream'.(Ú©‘®8¾„ó¿â0
+V	java:S106Á"9Replace this use of System.out or System.err by a logger.(ã¿ºı8¿„ó¿â0
+[	java:S106Ã"9Replace this use of System.out or System.err by a logger.(ïÈ¼Ÿüÿÿÿÿ8Á„ó¿â0
+|
+java:S2293¨"YReplace the type specification in this constructor call with the diamond operator ("<>").(²Ó•ûÿÿÿÿ8Â„ó¿â0
+w
+java:S2293°"YReplace the type specification in this constructor call with the diamond operator ("<>").(‰Šÿ‚8Ã„ó¿â0
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µªĞ¯úÿÿÿÿ
+R
+java:S3655m"7Call "Optional#isPresent()" before accessing the value.(‘ÍÆèúÿÿÿÿ
+L
+java:S3655s"7Call "Optional#isPresent()" before accessing the value.(ŒÔ[
+M
+java:S3655]"7Call "Optional#isPresent()" before accessing the value.(¬ä°’
+R
+java:S3655b"7Call "Optional#isPresent()" before accessing the value.(‹›ç¿úÿÿÿÿ

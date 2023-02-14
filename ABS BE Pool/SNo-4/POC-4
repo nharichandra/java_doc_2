@@ -1,0 +1,11 @@
+"1. This is the example of traditional kafka producer consumer application with spring boot
+Here 2 applications. 1) kafka-producer application 2) kafka-consumer application
+Producer application is responsible to publish the message in topic
+Consumer application is responsible to consume the message through topic which is published by publisher application
+
+2. By using streams we can easily migrate from Kafka to other messaging servers like RabbitMQ, etc
+Kafka with streams can simplify the code comparatievely normal kafka producer consumer application
+By using streams we can write the minimum configuration
+Here 2 applications. 1) producer application 2) consumer application
+Producer application is responsible to publish the message in topic
+Consumer application is responsible to consume the message through topic which is published by publisher application"

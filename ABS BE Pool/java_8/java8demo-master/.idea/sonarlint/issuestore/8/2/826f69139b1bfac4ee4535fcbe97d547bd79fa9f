@@ -1,0 +1,29 @@
+
+N	java:S106G"9Replace this use of System.out or System.err by a logger.(¢¯‹
+S	java:S106O"9Replace this use of System.out or System.err by a logger.(ÄÒ”¼ûÿÿÿÿ
+N	java:S106b"9Replace this use of System.out or System.err by a logger.(ÿÄ¢
+S	java:S106s"9Replace this use of System.out or System.err by a logger.(Ù¹€óıÿÿÿÿ
+S	java:S106u"9Replace this use of System.out or System.err by a logger.(Ÿ…Ìºıÿÿÿÿ
+O	java:S106€"9Replace this use of System.out or System.err by a logger.(“µÇ¿
+O	java:S106‹"9Replace this use of System.out or System.err by a logger.(ıßÙÓ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ƒğ«İşÿÿÿÿ
+O	java:S106­"9Replace this use of System.out or System.err by a logger.(µˆœÑ
+O	java:S106¶"9Replace this use of System.out or System.err by a logger.(¬‘ü
+H
+java:S1611½"1Remove the parentheses around the "emp" parameter(š”Á‰
+j
+java:S1602½"SRemove useless curly braces around statement and then remove useless return keyword(š”Á‰
+o
+java:S1602Á"SRemove useless curly braces around statement and then remove useless return keyword(ûàôÕüÿÿÿÿ
+u
+java:S4276È"YRefactor this code to use the more specialised Functional Interface 'IntFunction<String>'(ÿ“©¾şÿÿÿÿ
+P
+java:S1611È"4Remove the parentheses around the "length" parameter(ÿ“©¾şÿÿÿÿ
+o
+java:S1602È"SRemove useless curly braces around statement and then remove useless return keyword(ÿ“©¾şÿÿÿÿ
+M
+java:S1611î"6Remove the parentheses around the "employee" parameter(ƒÊõ£
+€
+java:S1488Ñ"dImmediately return this expression instead of assigning it to the temporary variable "filteredList".(³™ÀÅúÿÿÿÿ
+~
+java:S1488Û"bImmediately return this expression instead of assigning it to the temporary variable "isMathcing".(™Ñšºùÿÿÿÿ

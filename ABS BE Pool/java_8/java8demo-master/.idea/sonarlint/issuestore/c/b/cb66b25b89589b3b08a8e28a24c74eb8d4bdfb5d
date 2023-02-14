@@ -1,0 +1,18 @@
+
+P
+java:S1118":Add a private constructor to hide the implicit public one.(µôÇ¡
+N	java:S106U"9Replace this use of System.out or System.err by a logger.(Ãá˜¯
+V
+java:S1612Y"@Replace this lambda with method reference 'System.out::println'.(†ÂÝÞ
+N	java:S106Y"9Replace this use of System.out or System.err by a logger.(†ÂÝÞ
+N	java:S106b"9Replace this use of System.out or System.err by a logger.(°º¥¯
+V
+java:S1612d"@Replace this lambda with method reference 'System.out::println'.(†ÂÝÞ
+N	java:S106d"9Replace this use of System.out or System.err by a logger.(†ÂÝÞ
+[
+java:S1612o"@Replace this lambda with method reference 'System.out::println'.(Ãÿ•üøÿÿÿÿ
+S	java:S106o"9Replace this use of System.out or System.err by a logger.(Ãÿ•üøÿÿÿÿ
+t
+java:S2293x"YReplace the type specification in this constructor call with the diamond operator ("<>").(¥æ÷»ùÿÿÿÿ
+b
+java:S1192"GDefine a constant instead of duplicating this literal "female" 9 times.( …ÚÏùÿÿÿÿ

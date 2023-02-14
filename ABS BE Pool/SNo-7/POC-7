@@ -1,0 +1,7 @@
+"""FileManipulation"" to create new FILE / read the content from FILE / delete FILE using Mono
+""PriceObserver"" -> Subscriber to receive the updates from Publisher (Flux) periodically
+project - loyalty-service CRUD operations [Spring webflux + MongoDB + Kafka as Consumer] + 
+[Act as consumer to consume tthe kafka messages related to rewards information]
+project - loyalty-events-producer [kafka as producer] to publish the rewards information with loyaltyid
+project user-service CRUD operations + batch
+[Spring webflux + Spring Batch + MongoDB]"

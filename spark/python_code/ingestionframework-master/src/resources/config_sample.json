@@ -1,0 +1,120 @@
+{
+"mode": "batch",
+"jobs": [
+	{
+		"name": "job1",
+		"description": " Multiple-File-Input and Multiple-File-Output, with partitioning and schema enforcement ",
+		"fileInputs":[
+			{
+				"dataFrameName": "DF1",
+				"fileInPath": "C:/tmp/sampleInputFiles/csv/file/abc.csv",
+				"archivalPath": " ",
+				"numPartitions": 10,
+				"dataFormat":{
+					"dataFormat": "CSV",
+					"header": true,
+					"delimiter": "|",
+					"inferSchema": false,
+					"multiLine": false
+				}
+			},
+			{
+				"dataFrameName": "DF2",
+				"fileInPath": "C:/tmp/sampleInputFiles/json/file/sampleJson.json",
+				"archivalPath": " ",
+				"numPartitions": 2,
+				"dataFormat":{
+					"dataFormat": "JSON",
+					"multiLine": true
+				},
+				"enforceSchemaFile":  "C:/tmp/sampleInputFiles/json/schema/sampleSchema.json"
+			}
+		],
+		"fileOutputs": [
+			{
+				"dataFrameName": "DF1",
+				"format": "PARQUET",
+				"fileOutPath": "C:/tmp/samplePythonOutput/parquet/",
+				"mode": "Overwrite",
+				"partitions": 2,
+				"header": true,
+				"delimiter": "|",
+				"partitionBy": ["a1", "c1"],
+				"addColumns": [
+					{
+						"columnName": "a1",
+						"columnType": "int",
+						"columnValue": "current_date"
+					},
+					{
+						"columnName": "a2",
+						"columnType": "int",
+						"columnValue": "123"
+					},
+					{
+						"columnName": "a3",
+						"columnType": "int",
+						"columnValue": "epoch"
+					}
+				]
+			},
+			{
+				"dataFrameName": "DF2",
+				"format": "PARQUET",
+				"fileOutPath": "C:/tmp/samplePythonOutput/parquet2/",
+				"mode": "Overwrite",
+				"partitions": 2
+			}
+		]
+	},
+	{
+		"name": "job2",
+		"description": " Read from Database and write to File with partition ",
+		"dbmsInputs":[
+			{
+				"dataFrameName": "DF3",
+				"url": "jdbc:oracle:thin:,,,,,,",
+				"driver": "oracle.jdbc.driver.OracleDriver",
+				"user": "",
+				"password": "",
+				"dbtable": "rms_owner.store"
+			}
+		],
+		"fileOutputs": [
+			{
+				"dataFrameName": "DF3",
+				"format": "DELTA",
+				"fileOutPath": "C:/tmp/samplePythonOutput/delta1/",
+				"mode": "Overwrite",
+				"partitions": 2,
+				"partitionBy": ["country_id"]
+			}
+		]
+	},
+	{
+		"name": "job3",
+		"description": " Read Databricks Delta ",
+		"fileInputs":[
+			{
+				"dataFrameName": "DF4",
+				"fileInPath": "C:/tmp/samplePythonOutput/delta1/",
+				"archivalPath": " ",
+				"numPartitions": 2,
+				"dataFormat":{
+					"dataFormat": "DELTA"
+				}
+			}
+		],
+		"fileOutputs": [
+			{
+				"dataFrameName": "DF4",
+				"format": "CSV",
+				"fileOutPath": "C:/tmp/samplePythonOutput/csv1/",
+				"mode": "Overwrite",
+				"header": true,
+				"delimiter": ",",
+				"partitions": 1
+			}
+		]
+	}
+]}

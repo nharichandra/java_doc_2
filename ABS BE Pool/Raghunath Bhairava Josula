@@ -1,0 +1,41 @@
+
+Raghunath Bhairava Josula
+
+Practice examples Java 8 features
+
+1)From the list of employees, get the first employee from the list and return his fullName.
+where fullName = firstname + lastname.
+
+2)Given a list of employees. Can you create a map with the count of employees each department has ?
+with key as department name and count of employees as value.
+
+3)Given a map with the department name as key and value as list of employees belonging to that department.
+when a search string is given, need to list out the employees whose firstname or lastname is matching(match should be case insensitive).
+
+4)Store ids are of 4 digit strings.if length of given storeId is less than 4 digits,you need to prefix with zeros and return a 4 digit storeId.
+
+5)Consider a list of employees, and if a department name is given as argument, list out the employees which doesn't belong to that department.6) Consider a list of employees, sort the employees by their firstName and return the sorted list of employees.
+
+7)Consider a list of employees, return the employee whose empId is highest.
+
+8)Consider a list of employees, concat the fullName of all the employees with pipe (|) and return the concatenated string.
+where fullName = firstname + lastname.ex: niranjankumar|viswaraj
+
+9)Consider a list of 10 employees, get the 8th employee and print his full name and department name.
+
+10)consider list of employees and list of employee ids. return the list of employees matching with the given list of employee ids.
+
+11) Consider a list of employees and get the count of employees based on the Gender
+
+12) get Male and females list separetly and join the employee full names with delimeter -.
+ex: MALE = {[Jhon-Mike-Jack]} and FEMALE ....
+13) Get all the employees in ascending order based on the salary.
+
+14) While creating Employee class use Optional getters.
+15) Return all the employess data if address is not available for that employee provide.
+15) If deptName is "IT" update salary, use ifpresent
+16) Sort address based on city and then country. use thenComparing.
+17) Return Map<String, Address> where is key is firstName+lastname and value will be address object. 
+18) Work on findAny, findFirst, anyMatch, allMatch, noneMatch.
+19) Practice examples on Date and time API
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ReactiveWebFlux" />
+        <module name="drivers-webflux" />
+        <module name="ReactiveWeb_ReactiveMongo_Webflux" />
+        <module name="webclient" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DataStreaming" target="1.8" />
+      <module name="DataStreaming-1" target="1.8" />
+      <module name="drivers-webflux" target="1.8" />
+      <module name="ReactiveWeb_ReactiveMongo_Webflux" target="1.8" />
+      <module name="ReactiveWebFlux" target="1.8" />
+      <module name="Reactor-Sample" target="1.8" />
+      <module name="webclient" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="DataStreaming" options="-parameters" />
+      <module name="DataStreaming-1" options="-parameters" />
+      <module name="ReactiveWebFlux" options="-parameters" />
+      <module name="ReactiveWeb_ReactiveMongo_Webflux" options="-parameters" />
+      <module name="Reactor-Sample" options="-parameters" />
+      <module name="drivers-webflux" options="-parameters" />
+      <module name="webclient" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../../Reactor-Sample" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../DataStreaming" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../DataStreaming-1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ReactiveWebFlux" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ReactiveWebFlux-Functional" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-webflux-mono-flux-router-handler-master/DriversWebFlux" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../webclient" charset="UTF-8" />
+  </component>
+</project>

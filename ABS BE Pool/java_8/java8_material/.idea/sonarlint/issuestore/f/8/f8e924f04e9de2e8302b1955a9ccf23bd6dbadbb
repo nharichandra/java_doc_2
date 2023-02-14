@@ -1,0 +1,13 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(›Ú’œûÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ú·äq
+L
+java:S1611("6Remove the parentheses around the "employee" parameter(œ²Ó•
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(‹âØû
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(Ÿäš§
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(›Ú’œûÿÿÿÿ
+M	java:S1060"9Replace this use of System.out or System.err by a logger.(ú·äq
+`
+java:S1192$"JDefine a constant instead of duplicating this literal "Hyderabad" 3 times.(ó£‘Í
+>
+java:S1604"(Make this anonymous inner class a lambda(»™ž”

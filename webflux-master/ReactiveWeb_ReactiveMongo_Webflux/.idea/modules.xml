@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../ReactiveWebFlux/ReactiveWebFlux.iml" filepath="$PROJECT_DIR$/../ReactiveWebFlux/ReactiveWebFlux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReactiveWeb_ReactiveMongo_Webflux.iml" filepath="$PROJECT_DIR$/ReactiveWeb_ReactiveMongo_Webflux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-webflux-mono-flux-router-handler-master/DriversWebFlux/drivers-webflux.iml" filepath="$PROJECT_DIR$/../spring-webflux-mono-flux-router-handler-master/DriversWebFlux/drivers-webflux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../webclient/webclient.iml" filepath="$PROJECT_DIR$/../../webclient/webclient.iml" />
+    </modules>
+  </component>
+</project>

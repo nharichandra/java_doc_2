@@ -1,0 +1,215 @@
+# POC for calculating the tax which getting from tax service
+
+example of request data
+-----------------------
+{
+  "banner": "safeway",
+  "type": "SALE",
+  "salesDate": "2021-06-10",
+  "orderId": "2",
+  "snapAmount": 10,
+  "addresses": {
+    "physicalOrigin": {
+      "storeId": "459",
+      "streetAddress1": "7342 W Foster Ave",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60656",
+      "country": "US"
+    },
+    "customerDestination": {
+      "streetAddress1": "7342 W Foster Ave",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60656",
+      "country": "US"
+    }
+  },
+  "fulfillmentType": "Delivery",
+  "lineItems": [
+    {
+      "sequenceNumber": 1,
+      "upc": "0064918890047",
+      "productClass":"3266",
+      "bpn": "189032359",
+      "description": "Grand Marnier Cordon Rouge Liqueur Orange & Cognac 80 Proof - 750 Ml",
+      "quantity": 1,
+      "packageQuantity": "1",
+      "originalGrossPrice": 46.99,
+      "salesPrice": 43.99,
+      "image": "https://images.albertsons-media.com/is/image/ABS/189032359",
+      "smic": "8903010110",
+      "departmentName": "Wine, Beer & Spirits",
+      "volumeUnitOfMeasure": "ML",
+      "unitVolume": 750.00,
+      "taxRate": 0.283558,
+      "isSnapEligible": true,
+      "weightDebitAmount": 4,
+      "savings": [
+        {
+          "offerid": "String",
+          "programCode": "MF",
+          "startDate": "DateTime",
+          "endDate": "DateTime",
+          "discountAmount": 20,
+          "discountType": "String"
+        },
+        {
+          "offerid": "String",
+          "programCode": "SC",
+          "startDate": "DateTime",
+          "endDate": "DateTime",
+          "discountAmount": 20,
+          "discountType": "String"
+        }
+      ]
+    }
+  ],
+  "customerId": "556-051-1581013836892",
+  "charges": {
+    "shipping": {
+      "upc": "0000000022151",
+      "description": "Delivery Fee",
+      "salesPrice": 5.95,
+      "originalPrice": 5.95
+    },
+    "bags": {
+      "description": "Bag Fee",
+      "quantity": 5
+    },
+    "serviceFee": {
+      "upc": "",
+      "description": "Service Fee",
+      "originalPrice": 5.9,
+      "salesPrice": 5.00
+    }
+  }
+}
+
+Example of Response data
+------------------------
+{
+  "banner": "safeway",
+  "type": "SALE",
+  "salesDate": "2021-06-10",
+  "orderId": "2",
+  "addresses": {
+    "physicalOrigin": {
+      "storeId": "459",
+      "streetAddress1": "7342 W Foster Ave",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60656",
+      "country": "US"
+    },
+    "customerDestination": {
+      "streetAddress1": "7342 W Foster Ave",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60656",
+      "country": "US"
+    }
+  },
+  "fulfillmentType": "Delivery",
+  "tax": {
+    "total": 176.29,
+    "details": [
+      {
+        "key": "Sales Tax",
+        "value": 90.44
+      },
+      {
+        "key": "Delivery Fee",
+        "value": 5.95
+      },
+      {
+        "key": "Service Fee",
+        "value": 5.00,
+        "previous": 5.9
+      },
+      {
+        "key": "Service Fee",
+        "value": 70.0
+      },
+      {
+        "key": "Bag Fee",
+        "value": 4.90
+      }
+    ]
+  },
+  "lineItems": [
+    {
+      "sequenceNumber": 1,
+      "productClass": "3266",
+      "upc": "0064918890047",
+      "bpn": "189032359",
+      "description": "Grand Marnier Cordon Rouge Liqueur Orange & Cognac 80 Proof - 750 Ml",
+      "quantity": 1,
+      "packageQuantity": "1",
+      "originalGrossPrice": 46.99,
+      "salesPrice": 43.99,
+      "savings": [
+        {
+          "programCode": "MF",
+          "startDate": "DateTime",
+          "endDate": "DateTime",
+          "discountAmount": 20,
+          "discountType": "String"
+        },
+        {
+          "programCode": "SC",
+          "startDate": "DateTime",
+          "endDate": "DateTime",
+          "discountAmount": 20,
+          "discountType": "String"
+        }
+      ],
+      "taxes": [
+        {
+          "calculatedTax": 6.46,
+          "taxCode": "Sales Tax"
+        },
+        {
+          "calculatedTax": 5.95,
+          "taxCode": "Delivery Fee"
+        },
+        {
+          "calculatedTax": 5.0,
+          "taxCode": "Service Fee"
+        },
+        {
+          "calculatedTax": 0.35,
+          "taxCode": "Bag Fee"
+        }
+      ],
+      "image": "https://images.albertsons-media.com/is/image/ABS/189032359",
+      "smic": "8903010110",
+      "departmentName": "Wine, Beer & Spirits",
+      "volumeUnitOfMeasure": "ML",
+      "unitVolume": 750.00,
+      "taxRate": 0.283558,
+      "isSnapEligible": true,
+      "weightDebitAmount": 4
+    }
+  ],
+  "customerId": "556-051-1581013836892",
+  "charges": {
+    "shipping": {
+      "upc": "0000000022151",
+      "description": "Delivery Fee",
+      "salesPrice": 5.95,
+      "originalPrice": 5.95
+    },
+    "bags": {
+      "description": "Bag Fee",
+      "quantity": 5
+    },
+    "serviceFee": {
+      "upc": "",
+      "description": "Service Fee",
+      "salesPrice": 5.00,
+      "originalPrice": 5.9
+    }
+  },
+  "snapAmount": 10
+}

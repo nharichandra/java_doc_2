@@ -1,0 +1,28 @@
+
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(ÁÄ…Éşÿÿÿÿ
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(ëŞŞúÿÿÿÿ
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ
+N	java:S106E"9Replace this use of System.out or System.err by a logger.(ç’¤™
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(ÀÙà…úÿÿÿÿ
+M	java:S106M"9Replace this use of System.out or System.err by a logger.(ãÇ³A
+N	java:S106Q"9Replace this use of System.out or System.err by a logger.(ï–•Õ
+N	java:S106U"9Replace this use of System.out or System.err by a logger.(ÜÁã®
+N	java:S106Y"9Replace this use of System.out or System.err by a logger.(¾‡Å€
+N
+java:S1128"8Remove this unused import 'java.util.function.Function'.(»³Í
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(­î‹’ıÿÿÿÿ
+e
+java:S1192"JDefine a constant instead of duplicating this literal "HP Laptop" 3 times.(À“Ôêşÿÿÿÿ
+h
+java:S1192"MDefine a constant instead of duplicating this literal "Apple Laptop" 3 times.(ˆßşÿÿÿÿ
+a
+java:S1192"LDefine a constant instead of duplicating this literal "Dell Laptop" 3 times.(ØÌå.
+g
+java:S1192"LDefine a constant instead of duplicating this literal "Sony Laptop" 3 times.(ßØÜ­şÿÿÿÿ
+i
+java:S1192"NDefine a constant instead of duplicating this literal "Lenovo Laptop" 3 times.(æ¸®Âşÿÿÿÿ
+J
+java:S3655Y"4Call "maxBy.isPresent()" before accessing the value.(¾‡Å€
+J
+java:S3655U"4Call "minBy.isPresent()" before accessing the value.(ÜÁã®

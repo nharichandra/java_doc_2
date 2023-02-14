@@ -1,0 +1,43 @@
+{
+"mode": "batch",
+"jobs": [
+	{
+		"name": "job2",
+		"description": " Read from Database table incrementally using Audit-delta table ",
+		"dbmsInputs":[
+			{
+				"dataFrameName": "DF3",
+				"url": "jdbc:oracle:thin:",
+				"driver": "oracle.jdbc.driver.OracleDriver",
+				"user": "",
+				"password": "",
+				"dbtable": "(select * from table where last_update_datetime > to_date( '{minValue}', 'YYYY-MM-DD HH24:MI:SS' ) and last_update_datetime < to_date('{maxValue}', 'YYYY-MM-DD HH24:MI:SS' ))",
+				"dbIncremental": {
+					"maxQuery": "(Select max( last_update_datetime ) from table )",
+					"auditTablePath": "C:/tmp/samplePythonOutput/audit/",
+					"ingestionID": "item_master"
+				}
+			}
+		],
+		"fileOutputs": [
+			{
+				"dataFrameName": "DF3",
+				"format": "DELTA",
+				"fileOutPath": "C:/tmp/samplePythonOutput/delta1/",
+				"mode": "Overwrite",
+				"numPartitions": 2,
+				"addColumns": [
+					{
+						"columnName": "a1",
+						"columnType": "int",
+						"columnValue": "current_date"
+					}
+				],
+				"partitionBy": ["a1"]
+			}
+		]
+	}
+]
+}
+
+

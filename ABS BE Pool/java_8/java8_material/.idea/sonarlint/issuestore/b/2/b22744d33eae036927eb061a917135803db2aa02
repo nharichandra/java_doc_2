@@ -1,0 +1,36 @@
+
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(¡ĞÉÆşÿÿÿÿ
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(í‹ç§
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(í¶¼
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(¡ĞÉÆşÿÿÿÿ
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(í‹ç§
+N	java:S106."9Replace this use of System.out or System.err by a logger.(í¶¼
+N	java:S1065"9Replace this use of System.out or System.err by a logger.(Òû·è
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(¤èïÛıÿÿÿÿ
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(‚áå„ıÿÿÿÿ
+N	java:S106="9Replace this use of System.out or System.err by a logger.(œ×ª¨
+M	java:S106>"9Replace this use of System.out or System.err by a logger.(¹¯ª(
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(ı§ãˆıÿÿÿÿ
+N	java:S106P"9Replace this use of System.out or System.err by a logger.(à…œ´
+N	java:S106b"9Replace this use of System.out or System.err by a logger.(«‹Îõ
+N	java:S106h"9Replace this use of System.out or System.err by a logger.(Éáğè
+N	java:S106n"9Replace this use of System.out or System.err by a logger.(ÔÂè
+N	java:S106t"9Replace this use of System.out or System.err by a logger.(ğÁ–ñ
+<
+java:S2201x"&The return value of "of" must be used.(œêÌµ
+<
+java:S2201}"&The return value of "of" must be used.(œêÌµ
+T	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(ïûêìşÿÿÿÿ
+O	java:S106Œ"9Replace this use of System.out or System.err by a logger.(±‹©­
+O	java:S106›"9Replace this use of System.out or System.err by a logger.(«‹Îõ
+O	java:S106£"9Replace this use of System.out or System.err by a logger.(«‹Îõ
+O	java:S106®"9Replace this use of System.out or System.err by a logger.(«‹Îõ
+V	java:S106µ"9Replace this use of System.out or System.err by a logger.(«‹Îõ8Ğ³Î«â0
+t
+java:S2293F"YReplace the type specification in this constructor call with the diamond operator ("<>").(­î‹’ıÿÿÿÿ
+`
+java:S1192 "JDefine a constant instead of duplicating this literal "HP Laptop" 5 times.(ßä¸Ë
+b
+java:S1192m"GDefine a constant instead of duplicating this literal "Ramesh" 7 times.(ÈÉ¯ úÿÿÿÿ
+S
+java:S2589‡"7Remove this expression which always evaluates to "true"(ôÕœçûÿÿÿÿ

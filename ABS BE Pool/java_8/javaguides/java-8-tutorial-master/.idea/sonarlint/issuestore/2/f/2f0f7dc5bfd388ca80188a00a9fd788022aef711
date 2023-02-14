@@ -1,0 +1,12 @@
+
+J
+java:S1611"4Remove the parentheses around the "person" parameter(­²Ç
+N	java:S106"9Replace this use of System.out or System.err by a logger.(å¿ƒÅ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Éç£şÿÿÿÿ
+J
+java:S1611"4Remove the parentheses around the "person" parameter(›‡¿ğ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¹Âà·ıÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.( ”÷'
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¸õí
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÊÔ©†ûÿÿÿÿ

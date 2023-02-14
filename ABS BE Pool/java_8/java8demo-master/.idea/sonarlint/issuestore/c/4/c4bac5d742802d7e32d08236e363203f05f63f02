@@ -1,0 +1,26 @@
+
+M	java:S106"9Replace this use of System.out or System.err by a logger.(Ô•½@
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÕÇÕûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ØúÙÂşÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(´™ù–ùÿÿÿÿ
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(‘¾šÂ
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(ºÜİìûÿÿÿÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(•íïîşÿÿÿÿ
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(Ş±ß—ÿÿÿÿÿ
+N	java:S106."9Replace this use of System.out or System.err by a logger.(õ¡ıØ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(•ø¯¼ıÿÿÿÿ
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(°úğä
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(Íİœùÿÿÿÿ
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(¼»ò–
+N	java:S106B"9Replace this use of System.out or System.err by a logger.(Éëøó
+N	java:S106G"9Replace this use of System.out or System.err by a logger.( åÜ
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(´»±¤ıÿÿÿÿ
+N	java:S106J"9Replace this use of System.out or System.err by a logger.(¡ù‚
+N	java:S106M"9Replace this use of System.out or System.err by a logger.(Âèµ
+E
+java:S3631N"/Use "Arrays.stream" instead of "Arrays.asList".(İ¹ê¤
+N	java:S106N"9Replace this use of System.out or System.err by a logger.(İ¹ê¤
+S	java:S106P"9Replace this use of System.out or System.err by a logger.(êÒ§èşÿÿÿÿ
+N	java:S106_"9Replace this use of System.out or System.err by a logger.(ÄˆæÄ
+J
+java:S1068e"/Remove this unused "salFunction" private field.(¤’ë†ùÿÿÿÿ

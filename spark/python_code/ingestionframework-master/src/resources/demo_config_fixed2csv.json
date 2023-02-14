@@ -1,0 +1,41 @@
+{
+"mode": "batch",
+"jobs": [
+	{
+		"name": "job1",
+		"description": " Read Fixed-Length File ",
+		"fileInputs":[
+			{
+				"dataFrameName": "DF3",
+				"fileInPath": "/Users/nlangaliya/Downloads/IngestionFramework/InputData/InputFiles/fixed",
+				"archivalPath": " ",
+				"numPartitions": 2,
+				"dataFormat":{
+					"dataFormat": "FIXED",
+					"header": true,
+					"colNameTypeLength": [
+						{ "columnName": "c1" , "columnType": "long" , "columnLength": 2 },
+						{ "columnName": "c2" , "columnType": "int" , "columnLength": 1 },
+						{ "columnName": "c3" , "columnType": "float" , "columnLength": 1  },
+						{ "columnName": "c4" , "columnType": "" , "columnLength": 1 },
+						{ "columnName": "c5" , "columnType": "double" , "columnLength": 4  },
+						{ "columnName": "c6" , "columnType": "str" , "columnLength": 8 },
+						{ "columnName": "c7" , "columnType": "date" , "columnLength": 10  },
+						{ "columnName": "c8" , "columnType": "boolean" , "columnLength": 5 },
+						{ "columnName": "c9" , "columnType": "timestamp" , "columnLength": 23 }
+					]
+				}
+			}
+		],
+		"fileOutputs": [
+			{
+				"dataFrameName": "DF3",
+				"format": "csv",
+				"fileOutPath": "/Users/nlangaliya/Downloads/IngestionFrameworkOutputData/csv",
+				"mode": "Overwrite",
+				"numPartitions": 2
+			}
+		]
+	}
+]
+}

@@ -1,0 +1,17 @@
+
+q
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(öŒç¯
+N	java:S106"9Replace this use of System.out or System.err by a logger.(úÚ§›
+q
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(—Ù¡Ë
+G
+java:S1611"1Remove the parentheses around the "str" parameter(—Ù¡Ë
+V
+java:S1612"@Replace this lambda with method reference 'String::toLowerCase'.(—Ù¡Ë
+S	java:S106"9Replace this use of System.out or System.err by a logger.(áÌðØüÿÿÿÿ
+n
+java:S1602$"SRemove useless curly braces around statement and then remove useless return keyword(Üë×®þÿÿÿÿ
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(Ôãƒý
+U	java:S106*"9Replace this use of System.out or System.err by a logger.(· ¶8Ìà¾™â0
+>
+java:S1604"(Make this anonymous inner class a lambda(öŒç¯

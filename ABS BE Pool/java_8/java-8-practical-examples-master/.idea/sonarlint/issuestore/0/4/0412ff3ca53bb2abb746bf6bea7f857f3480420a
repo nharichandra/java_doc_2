@@ -1,0 +1,29 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÙÆ”
+N	java:S106"9Replace this use of System.out or System.err by a logger.(éÚĞË
+N	java:S106"9Replace this use of System.out or System.err by a logger.(éÚĞË
+M	java:S106"9Replace this use of System.out or System.err by a logger.(—ùı$
+6
+java:S2129" Remove this "String" constructor(ğÔ€¦
+N	java:S106"9Replace this use of System.out or System.err by a logger.(’Ëú‹
+N	java:S106""9Replace this use of System.out or System.err by a logger.(®¹Õ
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(ø’Ïíıÿÿÿÿ
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(Íî¹×
+<
+java:S1128"&Remove this unused import 'java.util'.(Î€ŒÙ
+\
+java:S1128"ARemove this unused import 'java.util.concurrent.ExecutorService'.(æ÷–£ùÿÿÿÿ
+V
+java:S1128";Remove this unused import 'java.util.concurrent.Executors'.(äåÒÛÿÿÿÿÿ
+N
+java:S1128"8Remove this unused import 'java.util.function.Function'.(»³Í
+S
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ
+b
+java:S1192"GDefine a constant instead of duplicating this literal "Scaler" 3 times.(¥˜ìŞÿÿÿÿÿ
+a	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(„Ûáu
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(–ƒ…Ú
+R
+java:S4973"<Strings and Boxed types should be compared using "equals()".(’Ëú‹
+R
+java:S4973""<Strings and Boxed types should be compared using "equals()".(®¹Õ

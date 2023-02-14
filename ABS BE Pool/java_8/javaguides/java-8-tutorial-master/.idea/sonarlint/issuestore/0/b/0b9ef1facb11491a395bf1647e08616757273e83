@@ -1,0 +1,20 @@
+
+o
+java:S4276"YRefactor this code to use the more specialised Functional Interface 'IntToDoubleFunction'(÷†¦™
+6
+java:S2129" Remove this "Double" constructor(÷†¦™
+S	java:S106"9Replace this use of System.out or System.err by a logger.(†Ôºòûÿÿÿÿ
+q
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'ToIntFunction<String>'(„“ßÍ
+S
+java:S1612"=Replace this lambda with method reference 'Integer::valueOf'.(„“ßÍ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ñ´¤
+J
+java:S1611"4Remove the parentheses around the "entity" parameter(†—È
+i
+java:S1602"SRemove useless curly braces around statement and then remove useless return keyword(†—È
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÊïŠúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(’¨˜»øÿÿÿÿ
+X
+java:S2184"BCast one of the operands of this addition operation to a "double".(÷†¦™
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÊÔ©†ûÿÿÿÿ

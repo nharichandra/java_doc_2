@@ -1,0 +1,51 @@
+{
+"mode": "batch",
+"jobs": [
+	{
+		"name": "job1",
+		"description": " Multiple-File-Input and Multiple-File-Output, with partitioning and schema enforcement ",
+		"fileInputs":[
+			{
+				"dataFrameName": "DF1",
+				"fileInPath": "/Users/nlangaliya/Downloads/IngestionFramework/InputData/InputFiles/csv/abc.csv",
+				"archivalPath": " ",
+				"dataFormat":{
+					"dataFormat": "CSV",
+					"header": true,
+					"delimiter": "|",
+					"inferSchema": false,
+					"multiLine": false
+				}
+			}
+		],
+		"fileOutputs": [
+			{
+				"dataFrameName": "DF1",
+				"format": "PARQUET",
+				"fileOutPath": "/Users/nlangaliya/Downloads/IngestionFrameworkOutputData/parquet/",
+				"mode": "Overwrite",
+				"numPartitions": 2,
+				"header": true,
+				"delimiter": "|",
+				"partitionBy": ["a1", "c1"],
+				"addColumns": [
+					{
+						"columnName": "a1",
+						"columnType": "int",
+						"columnValue": "current_date"
+					},
+					{
+						"columnName": "a2",
+						"columnType": "int",
+						"columnValue": "123"
+					},
+					{
+						"columnName": "a3",
+						"columnType": "int",
+						"columnValue": "epoch"
+					}
+				]
+			}
+		]
+	}
+]}
